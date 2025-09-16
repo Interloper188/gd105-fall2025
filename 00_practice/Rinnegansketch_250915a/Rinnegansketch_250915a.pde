@@ -1,3 +1,5 @@
+import processing.svg.*;
+beginRecord(SVG, "Rinnegan.svg");
 size(800, 800);
 textSize(30);
 stroke(0);
@@ -12,3 +14,4 @@ circle(width/2, height/2, 200); //c5
 fill(0); // Black
 circle(width/2, height/2, 100); //c6
 text("Xavier Hodge", 50, 750);
+endRecord();
