@@ -1,5 +1,5 @@
 import processing.svg.*;
-beginRecord(SVG, "Rinnegan.svg");
+beginRecord(SVG, "Project1.svg");
 size(800, 800);
 textSize(30);
 stroke(0);
