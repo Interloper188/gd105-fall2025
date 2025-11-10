@@ -1,0 +1,17 @@
+import processing.svg.*;
+beginRecord(SVG, "Project1-4th");
+size(800,800);
+noFill();
+circle(55,55,100);
+circle(745,745,100);
+square(200,200,400);
+circle(55,745,100);
+circle(745,55,100);
+circle(400,400,400);
+square(300,300,200);
+circle(400,400,200);
+line(400,0 , 0,400);
+line(400,0 , 800,400);
+line(400,800 , 0,400);
+line(400,800 , 800,400);
+endRecord();
