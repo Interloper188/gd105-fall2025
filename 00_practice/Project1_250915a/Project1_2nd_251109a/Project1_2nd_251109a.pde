@@ -1,0 +1,14 @@
+import processing.svg.*;
+beginRecord(SVG, "project1-2nd.svg");
+size(800,800);
+noFill();
+square(200, 200, 400);
+line(0,0 , 200,200);
+line(800,0 , 600,200);
+line(0,800 , 200,600);
+line(800,800 , 600,600);
+circle(400, 400, 200);
+triangle(400, 300, 400, 400, 400, 500);
+triangle(200, 400, 400, 200, 600, 400);
+triangle(200, 400, 400, 600, 600, 400);
+endRecord();
