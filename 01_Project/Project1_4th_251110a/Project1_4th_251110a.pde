@@ -1,5 +1,5 @@
 import processing.svg.*;
-beginRecord(SVG, "Project1-4th");
+beginRecord(SVG, "Project1-4th.svg");
 size(800,800);
 noFill();
 circle(55,55,100);
