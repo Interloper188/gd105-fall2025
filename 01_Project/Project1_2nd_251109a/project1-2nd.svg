@@ -16,6 +16,7 @@
       /><path style="fill:none;" d="M400 300 L400 400 L400 500 Z"
       /><path style="fill:none;" d="M200 400 L400 200 L600 400 Z"
       /><path style="fill:none;" d="M200 400 L400 600 L600 400 Z"
+      /><circle r="200" style="fill:none;" cx="400" cy="400"
     /></g
   ></g
 ></svg

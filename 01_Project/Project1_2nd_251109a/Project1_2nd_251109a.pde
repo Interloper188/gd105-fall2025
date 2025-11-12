@@ -11,4 +11,5 @@ circle(400, 400, 200);
 triangle(400, 300, 400, 400, 400, 500);
 triangle(200, 400, 400, 200, 600, 400);
 triangle(200, 400, 400, 600, 600, 400);
+circle(400, width/2, height/2);
 endRecord();
