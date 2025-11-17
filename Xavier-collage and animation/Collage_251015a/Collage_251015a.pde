@@ -61,19 +61,27 @@ void draw() {
   image(graduation, 540, 601);
   image(diploma, 576, 487);
   image(controller, 190, 264);
-  image(prom, 321, 602);
+  //image(prom, 321, 602);
   image(xbox, 78, 373);
-  image(halfskull, 647, 216);
-  image(gokustatue, 711, 694);
-  image(sleepyezra, 96, 126);
-  image(whitehorse, 720, 766);
-  image(roombaal, 739, 534);
-  image(blanketezra, 205, 407);
+  //image(halfskull, 647, 216);
+  //image(gokustatue, 711, 694);
+  //image(sleepyezra, 96, 126);
+  //image(whitehorse, 720, 766);
+  //image(roombaal, 739, 534);
+  //image(blanketezra, 205, 407);
   //image(smallezra, 383, 372);
 
   
   rotateImage(pancake, 395, 126, frameCount*0.01);
-  rotateImage(smallezra, 383, 372, cos(frameCount*0.2) * 0.1);
+  rotateImage(smallezra, 383, 372, cos(frameCount*0.1) * 0.1);
+  rotateImage(blanketezra, 205, 407, sin(frameCount*0.1) * 0.1);
+  rotateImage(roombaal, 739, 534, cos(frameCount*0.1) * 0.1);
+  rotateImage(whitehorse, 720, 766, cos(frameCount*0.1) * 0.1);
+  rotateImage(sleepyezra, 96, 100 + sin(frameCount*0.1) * 5,0);
+  rotateImage(prom, 321+ cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
+  rotateImage(gokustatue, 711, 694, cos(frameCount*0.1) * 0.1);
+  rotateImage(halfskull, 647, 216 + sin(frameCount*0.1) * 5,0);
+  
 }
 
 void rotateImage(PImage img, float x, float y, float speed)
