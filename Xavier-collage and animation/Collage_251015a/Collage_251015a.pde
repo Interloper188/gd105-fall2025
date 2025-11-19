@@ -55,10 +55,6 @@ void setup() {
 }
 void draw() {
   
-  if (frameCount <=600) {
-    saveFrame("frames/frame-####.png");
-  }
-  
   image(pillar, 199, 391);
   image(park, 599, 388);
 
@@ -76,21 +72,22 @@ void draw() {
   //image(blanketezra, 205, 407);
   //image(smallezra, 383, 372);
 
+  float t = frameCount*0.4;
   
-  placeImage(pancake, 395, 126, frameCount*0.01);
-  placeImage(smallezra, 429, 336, cos(frameCount*0.1) * 0.1);
-  placeImage(blanketezra, 265, 290, sin(frameCount*0.1) * 0.1);
-  placeImage(roombaal, 729, 403, cos(frameCount*0.1) * 0.1);
-  placeImage(whitehorse, 641, 747, cos(frameCount*0.1) * 0.1);
-  placeImage(sleepyezra, 96, 125 + sin(frameCount*0.1) * 5,0);
-  placeImage(prom, 334 + cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
-  placeImage(gokustatue, 711, 680, cos(frameCount*0.1) * 0.1);
-  placeImage(halfskull, 646, 112 + sin(frameCount*0.1) * 5,0);
-  placeImage(graduation, 540 + cos(frameCount*0.1) * 5.0, 601 + sin(frameCount*0.1) * 5,0);
-  placeImage(xbox, 73, 421, cos(frameCount*0.1) * 0.1);
-  placeImage(controller, 151, 476, cos(frameCount*0.1) * 0.1);
-  placeImage(standing, 120, 603 + sin(frameCount*0.1) * 5,0);
-  placeImage(diploma, 653 + cos(frameCount*0.1) * 5.0, 493 + sin(frameCount*0.1) * 5,0);
+  placeImage(pancake, 395, 126, t);
+  placeImage(smallezra, 429, 336, cos(t) * 0.1);
+  placeImage(blanketezra, 265, 290, sin(t) * 0.1);
+  placeImage(roombaal, 729, 403, cos(t) * 0.1);
+  placeImage(whitehorse, 641, 747, cos(t) * 0.1);
+  placeImage(sleepyezra, 96, 125 + sin(t) * 5,0);
+  placeImage(prom, 334 + cos(t) * 5.0, 602 + sin(t) * 5,0);
+  placeImage(gokustatue, 711, 680, cos(t) * 0.1);
+  placeImage(halfskull, 646, 112 + sin(t) * 5,0);
+  placeImage(graduation, 540 + cos(t) * 5.0, 601 + sin(t) * 5,0);
+  placeImage(xbox, 73, 421, cos(t) * 0.1);
+  placeImage(controller, 151, 476, cos(t) * 0.1);
+  placeImage(standing, 120, 603 + sin(t) * 5,0);
+  placeImage(diploma, 653 + cos(t) * 5.0, 493 + sin(t) * 5,0);
   
 }
 
