@@ -59,10 +59,10 @@ void draw() {
 
   image(standing, 120, 603);
   image(graduation, 540, 601);
-  image(diploma, 576, 487);
-  image(controller, 190, 264);
+  image(diploma, 653, 493);
+  image(controller, 151, 476);
   //image(prom, 321, 602);
-  image(xbox, 78, 373);
+  image(xbox, 73, 421);
   //image(halfskull, 647, 216);
   //image(gokustatue, 711, 694);
   //image(sleepyezra, 96, 126);
@@ -73,14 +73,14 @@ void draw() {
 
   
   rotateImage(pancake, 395, 126, frameCount*0.01);
-  rotateImage(smallezra, 383, 372, cos(frameCount*0.1) * 0.1);
-  rotateImage(blanketezra, 205, 407, sin(frameCount*0.1) * 0.1);
-  rotateImage(roombaal, 739, 534, cos(frameCount*0.1) * 0.1);
-  rotateImage(whitehorse, 720, 766, cos(frameCount*0.1) * 0.1);
-  rotateImage(sleepyezra, 96, 100 + sin(frameCount*0.1) * 5,0);
-  rotateImage(prom, 321+ cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
-  rotateImage(gokustatue, 711, 694, cos(frameCount*0.1) * 0.1);
-  rotateImage(halfskull, 647, 216 + sin(frameCount*0.1) * 5,0);
+  rotateImage(smallezra, 429, 336, cos(frameCount*0.1) * 0.1);
+  rotateImage(blanketezra, 265, 290, sin(frameCount*0.1) * 0.1);
+  rotateImage(roombaal, 729, 403, cos(frameCount*0.1) * 0.1);
+  rotateImage(whitehorse, 641, 747, cos(frameCount*0.1) * 0.1);
+  rotateImage(sleepyezra, 96, 125 + sin(frameCount*0.1) * 5,0);
+  rotateImage(prom, 334+ cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
+  rotateImage(gokustatue, 711, 680, cos(frameCount*0.1) * 0.1);
+  rotateImage(halfskull, 646, 112 + sin(frameCount*0.1) * 5,0);
   
 }
 
