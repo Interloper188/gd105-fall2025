@@ -54,6 +54,11 @@ void setup() {
   pancake.resize(int(pancake.width * 0.1), int(pancake.height * 0.1));
 }
 void draw() {
+  
+  if (frameCount <=600) {
+    saveFrame("frames/frame-####.png");
+  }
+  
   image(pillar, 199, 391);
   image(park, 599, 388);
 
