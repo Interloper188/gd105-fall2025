@@ -57,12 +57,12 @@ void draw() {
   image(pillar, 199, 391);
   image(park, 599, 388);
 
-  image(standing, 120, 603);
-  image(graduation, 540, 601);
-  image(diploma, 653, 493);
-  image(controller, 151, 476);
+  //image(standing, 120, 603);
+  //image(graduation, 540, 601);
+  //image(diploma, 653, 493);
+  //image(controller, 151, 476);
   //image(prom, 321, 602);
-  image(xbox, 73, 421);
+  //image(xbox, 73, 421);
   //image(halfskull, 647, 216);
   //image(gokustatue, 711, 694);
   //image(sleepyezra, 96, 126);
@@ -72,19 +72,24 @@ void draw() {
   //image(smallezra, 383, 372);
 
   
-  rotateImage(pancake, 395, 126, frameCount*0.01);
-  rotateImage(smallezra, 429, 336, cos(frameCount*0.1) * 0.1);
-  rotateImage(blanketezra, 265, 290, sin(frameCount*0.1) * 0.1);
-  rotateImage(roombaal, 729, 403, cos(frameCount*0.1) * 0.1);
-  rotateImage(whitehorse, 641, 747, cos(frameCount*0.1) * 0.1);
-  rotateImage(sleepyezra, 96, 125 + sin(frameCount*0.1) * 5,0);
-  rotateImage(prom, 334+ cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
-  rotateImage(gokustatue, 711, 680, cos(frameCount*0.1) * 0.1);
-  rotateImage(halfskull, 646, 112 + sin(frameCount*0.1) * 5,0);
+  placeImage(pancake, 395, 126, frameCount*0.01);
+  placeImage(smallezra, 429, 336, cos(frameCount*0.1) * 0.1);
+  placeImage(blanketezra, 265, 290, sin(frameCount*0.1) * 0.1);
+  placeImage(roombaal, 729, 403, cos(frameCount*0.1) * 0.1);
+  placeImage(whitehorse, 641, 747, cos(frameCount*0.1) * 0.1);
+  placeImage(sleepyezra, 96, 125 + sin(frameCount*0.1) * 5,0);
+  placeImage(prom, 334 + cos(frameCount*0.1) * 5.0, 602 + sin(frameCount*0.1) * 5,0);
+  placeImage(gokustatue, 711, 680, cos(frameCount*0.1) * 0.1);
+  placeImage(halfskull, 646, 112 + sin(frameCount*0.1) * 5,0);
+  placeImage(graduation, 540 + cos(frameCount*0.1) * 5.0, 601 + sin(frameCount*0.1) * 5,0);
+  placeImage(xbox, 73, 421, cos(frameCount*0.1) * 0.1);
+  placeImage(controller, 151, 476, cos(frameCount*0.1) * 0.1);
+  placeImage(standing, 120, 603 + sin(frameCount*0.1) * 5,0);
+  placeImage(diploma, 653 + cos(frameCount*0.1) * 5.0, 493 + sin(frameCount*0.1) * 5,0);
   
 }
 
-void rotateImage(PImage img, float x, float y, float speed)
+void placeImage(PImage img, float x, float y, float speed)
 {
   translate(x, y);
   rotate(speed);
