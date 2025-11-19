@@ -12,46 +12,46 @@ void setup() {
   park.resize(400, 850);
 
   standing = loadImage("Ezrastanding.png");
-  standing.resize(300, 400);
+  standing.resize(int(standing.width * 0.1), int(standing.height * 0.1));
 
   graduation = loadImage("graduation.png");
-  graduation.resize(300, 400);
+  graduation.resize(int(graduation.width * 0.1), int(graduation.height *0.1));
 
   diploma = loadImage("diploma.png");
-  diploma.resize(100, 100);
+  diploma.resize(int(diploma.width * 0.04) , int(diploma.height * 0.04));
 
   controller = loadImage("controller.png");
-  controller.resize(200, 200);
+  controller.resize(int(controller.width * 0.1), int(controller.height * 0.1));
 
   prom = loadImage("prom.png");
-  prom.resize(300, 400);
+  prom.resize(int(prom.width * 0.4), int(prom.height *0.4));
 
   xbox =loadImage("xbox.png");
-  xbox.resize(200, 250);
+  xbox.resize(int(xbox.width * 0.05), int(xbox.height * 0.05));
 
   halfskull = loadImage("halfskull.png");
-  halfskull.resize(300, 400);
+  halfskull.resize(int(halfskull.width * 0.1), int(halfskull.height *0.1));
 
   gokustatue = loadImage("gokustatue.png");
-  gokustatue.resize(200, 300);
+  gokustatue.resize(int(gokustatue.width * 0.1), int(gokustatue.height * 0.1));
 
   sleepyezra = loadImage("sleepyezra.png");
-  sleepyezra.resize(200, 300);
+  sleepyezra.resize(int(sleepyezra.width * 0.09), int(sleepyezra.height * 0.09));
 
   roombaal = loadImage("roombaal.png");
-  roombaal.resize(200, 300);
+  roombaal.resize(int(roombaal.width * 0.1), int(roombaal.height * 0.1));
 
   whitehorse = loadImage("whitehorse.png");
-  whitehorse.resize(200, 300);
+  whitehorse.resize(int(whitehorse.width * 0.1), int(whitehorse.height * 0.1));
 
   blanketezra = loadImage("blanketezra.png");
-  blanketezra.resize(200, 300);
+  blanketezra.resize(int(blanketezra.width * 0.08), int(blanketezra.height * 0.08));
 
   smallezra = loadImage("smallezra.png");
-  smallezra.resize(200, 300);
+  smallezra.resize(int(smallezra.width * 0.2), int(smallezra.height * 0.2));
 
   pancake = loadImage("pancake.png");
-  pancake.resize(400, 400);
+  pancake.resize(int(pancake.width * 0.1), int(pancake.height * 0.1));
 }
 void draw() {
   image(pillar, 199, 391);
