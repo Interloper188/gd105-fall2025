@@ -12,3 +12,11 @@ void draw() {
     background(0);
   }
 }
+void keyPressed(){
+  println("Q");
+  if (key == 1) {
+    background(160);
+  }
+}
+  
+  
