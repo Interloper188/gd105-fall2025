@@ -5,18 +5,17 @@ void setup() {
 }
 
 void draw() {
-  square(400, 400, 400);
+  
+  
+  
+  
+  
+  
+  
   if (mousePressed){
     background(255);
   } else {
     background(0);
   }
-}
-void keyPressed(){
-  println("Q");
-  if (key == 1) {
-    background(160);
-  }
-}
-  
+
   
