@@ -1,3 +1,5 @@
+
+
 void setup(){
   size(800,800);
 }
@@ -13,4 +15,11 @@ void draw(){ //Title Screen
   rect(220, 377, 347, 97); // box
   textSize(50);
   text("Click To Start", 257, 442);// Start
+  
+  if (mousePressed){
+    println("Mouse is being held");
+    
+  }
 }
+
+  
